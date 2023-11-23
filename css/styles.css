@@ -170,8 +170,9 @@ margin-right: 76px;}
     .fotos {background-color: #FFFFFF;}
 
     .footer 
-    {background-color:var(--becgroung-color-section);
-    padding: 100px 0;}
+    {background-color:var(--becgroung-color-section);}
+
+    .footer-padding{padding: 100px 0}
 
     .footer-logo
     {display: inline-block;
