@@ -5,8 +5,6 @@ color:#434455;}
 
 .header-{border-bottom: 1px solid #e7e9fc}
 
-img{display: block;}
-
 .div-logo{display: flex;}
 
 .container{
@@ -24,7 +22,8 @@ align-items: center;}
 --becgroung-color-section:#2e2f42;
 --section-heading-color:#434455;
 --footer-color:#F4F4FD;
---link-hover-focus:#404bbf;}
+--link-hover-focus:#404bbf;
+--portfolio-color:#e7e9fc;}
 
 .logo-web 
 {font-family:"Raleway",sans-serif;
@@ -75,17 +74,23 @@ margin-right: 76px;}
     .sekcja-index 
     {background-color:#2e2f42;}
 
-    .sekcja-one{padding: 188px 0;}
+    .sekcja-one {padding: 188px 0;}
 
-    .sekcja-two-index
-    {padding: 120px 0;}
+    .sekcja-two-index {padding: 120px 0;}
 
-    .sekcja-tree-index{
-    padding-bottom: 120px;}
+    .sekcja-tree-index {padding-bottom: 120px;}
+
+    .section-portfolio {padding-top: 96px; padding-bottom: 120px;}
 
     .list-sekcja{
     display: flex;
     gap: 24px;}
+
+    .lista-portfolio
+    {display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px}
 
     .naglowek
     {font-size:56px;
@@ -153,12 +158,17 @@ margin-right: 76px;}
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    }
+    letter-spacing: 0.04em;}
+
+    .button-portfolio-bloc
+    {padding: 12px 24px;
+    border: 1px solid color=var(--portfolio-color);
+    border-radius: 4px;}
 
     .button-portfolio:hover, .button-portfolio:focus
     {background-color: #404BBF;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+    border: 1px solid transparent;}
 
 
     .acapit
@@ -174,7 +184,7 @@ margin-right: 76px;}
     .footer 
     {background-color:var(--becgroung-color-section);}
 
-    .footer-padding{padding: 100px 0}
+    .footer-padding{padding: 100px 0;}
 
     .footer-logo
     {display: inline-block;
