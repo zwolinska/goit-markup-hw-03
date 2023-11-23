@@ -80,7 +80,7 @@ margin-right: 76px;
     .sekcja-two-index
     {padding: 120px 0;}
 
-    .list-sekcja-two{
+    .list-sekcja{
     display: flex;
     gap: 24px;}
 
@@ -112,6 +112,9 @@ margin-right: 76px;
     text-transform: capitalize;
     color: var(--becgroung-color-section);}
 
+    .naglowek-section-tree{margin-bottom: 72px;}
+
+    .img-list{width: calc((100% - 48px) / 3);}
 
     .button 
     {background-color:#4D5AE5;
