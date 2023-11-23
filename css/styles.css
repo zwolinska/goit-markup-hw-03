@@ -169,14 +169,22 @@ margin-right: 76px;}
 
     .fotos {background-color: #FFFFFF;}
 
-    .footer {background-color:var(--becgroung-color-section)}
+    .footer 
+    {background-color:var(--becgroung-color-section);
+    padding: 100px 0;}
+
+    .footer-logo
+    {display: inline-block;
+    margin-bottom: 16px;}
 
     .styl-color {color: var(--footer-color);}
 
     .acapit-footer
     {line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--footer-color); }
+    color: var(--footer-color);}
+
+    .acapit-footer-logo{max-width: 264px;}  
 
 
 
