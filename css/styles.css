@@ -80,6 +80,9 @@ margin-right: 76px;
     .sekcja-two-index
     {padding: 120px 0;}
 
+    .sekcja-tree-index{
+    padding-bottom: 120px;}
+
     .list-sekcja{
     display: flex;
     gap: 24px;}
