@@ -7,6 +7,8 @@ color:#434455;}
 
 .div-logo{display: flex;}
 
+img{display: block;}
+
 .container{
 width: 1158px;
 margin: 0 auto;
@@ -91,6 +93,11 @@ margin-right: 76px;}
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px}
+
+    .lista-portfolio-two
+    {flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;}
 
     .naglowek
     {font-size:56px;
