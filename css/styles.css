@@ -14,7 +14,7 @@ width: 1158px;
 margin: 0 auto;
 padding: 0 15px;}
 
-.container-portfolio{
+.div-portfolio{
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;}
@@ -176,7 +176,7 @@ margin-right: 76px;}
 
     .button-portfolio-bloc
     {padding: 12px 24px;
-    border: 1px solid color=var(--portfolio-color);
+    border: 1px solid #e7e9fc;
     border-radius: 4px;}
 
     .button-portfolio:hover, .button-portfolio:focus
