@@ -118,8 +118,9 @@ margin-right: 76px;}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--becgroung-color-section);
-    margin-bottom: 8px;}
+    color: var(--becgroung-color-section);}
+
+    .naglowek-portfolio{margin-bottom: 8px;}
 
     .naglowek-strategy{
     margin-bottom: 8px;}
