@@ -3,7 +3,7 @@ body
 background-color: #FFFFFF;
 color:#434455;}
 
-.header-{border-bottom: 1px solid #e7e9fc}
+.header{border-bottom: 1px solid #e7e9fc}
 
 .div-logo{display: flex;}
 
@@ -13,6 +13,11 @@ img{display: block;}
 width: 1158px;
 margin: 0 auto;
 padding: 0 15px;}
+
+.container-portfolio{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;}
 
 .nav-logo{
 display: flex;
@@ -113,7 +118,8 @@ margin-right: 76px;}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--becgroung-color-section);}
+    color: var(--becgroung-color-section);
+    margin-bottom: 8px;}
 
     .naglowek-strategy{
     margin-bottom: 8px;}
