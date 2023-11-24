@@ -183,7 +183,8 @@ margin-right: 76px;}
     {background-color: #404BBF;
     color: #FFFFFF;}
 
-    .button-portfolio-bloc:hover,.button-portfolio-bloc:focus {border: 1px solid transparent}
+    .button-portfolio-bloc:hover,.button-portfolio-bloc:focus
+    {border: 1px solid transparent}
 
     .acapit
     {font-size:16px;
