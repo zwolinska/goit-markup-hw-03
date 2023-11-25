@@ -5,6 +5,11 @@ color:#434455;}
 
 .header{border-bottom: 1px solid #e7e9fc}
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+
 .div-logo{display: flex;}
 
 img{display: block;}
