@@ -9,8 +9,8 @@
 
 body{
 font-family:"Roboto",sans-serif;
-background-color: #FFFFFF;
-color:#434455;
+background-color:var(--bacground-color);
+color:var(--section-heading-color);
 }
 
 .header{
@@ -35,6 +35,10 @@ display: block;
 width: 1158px;
 margin: 0 auto;
 padding: 0 15px;}
+
+.container-foto-index{
+    padding: 32px 0px;
+}
 
 .div-portfolio{
 padding: 32px 16px;
@@ -80,6 +84,10 @@ gap: 40px;
 font-style: normal;
 }
 
+.link {
+    text-decoration: none
+}
+
 .address-logo{
 font-size: 16px;
 line-height: 1.5;
@@ -89,9 +97,6 @@ display: flex;
 gap: 40px;
 }
 
-.link{
-    text-decoration: none
-}
 
 .link-header{
 font-weight: 500;
@@ -111,7 +116,7 @@ padding: 24px 0
 }
 
 .section-index {
-    background-color:#2e2f42;
+    background-color:var(--becgroung-color-section);
 }
 
 .section-one {
@@ -165,7 +170,7 @@ font-size:56px;
 line-height:1.07;
 text-align:center;
 letter-spacing:0.02em;
-color: #ffffff;
+color:var(--bacground-color);
 }
 
 .heading-one{
@@ -207,6 +212,7 @@ margin-bottom: 8px;
 
 .punk-calc{
     width: calc((100% - 72px) / 4);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 } 
 
 .foto-section-four{
@@ -224,7 +230,7 @@ margin-bottom: 8px;
 
 .button {
     background-color:var(--logo-main-color);
-    color:#ffffff;
+    color:var(--bacground-color);
     font-family:"Roboto", sans-serif;
     font-weight:500;
     font-size:16px;
@@ -239,11 +245,14 @@ margin-bottom: 8px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 
 .button:hover, .button:focus{
-    background-color:#404BBF;
+    background-color:var(--link-hover-focus);
 }
 
 .button-portfolio
@@ -263,8 +272,8 @@ margin-bottom: 8px;
 }
 
 .button-portfolio:hover, .button-portfolio:focus{
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color:var(--link-hover-focus);
+    color:var(--bacground-color);
 }
 
 .button-portfolio-bloc:hover,.button-portfolio-bloc:focus{
@@ -279,12 +288,12 @@ margin-bottom: 8px;
 }
 
 .fotos{
-    background-color: #FFFFFF;
+    background-color:var(--bacground-color);
     border-radius: 0px 0px 4px 4px;
 }
 
  .section-four{
-    background-color: #F4F4FD;
+    background-color:var(--footer-color);
 }
 
 .footer {
@@ -312,7 +321,7 @@ margin-bottom: 8px;
 
 .acapit-footer-logo{
     max-width: 264px;
-}  
+} 
 
 
 
