@@ -62,7 +62,11 @@ body{
     color:var(--logo-main-color);
     margin-right: 76px;
 }
-   
+
+.img{
+    display: block;
+}
+
 .list {
     list-style: none;
     display: flex;
@@ -270,19 +274,14 @@ body{
 .button-portfolio
     {background-color:var(--footer-color);
     color: var(--logo-main-color);
-}
-
-.button-portfolio-one{
-    background-color: var(--link-hover-focus);
-    color: var(--bacground-color);
-}
-
-.button-portfolio-bloc{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+}
+
+.button-portfolio-bloc{
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
