@@ -26,6 +26,15 @@ body{
     padding: 0 15px;
 }
 
+.flex-box{
+    display: flex;
+    align-items: center;
+}
+
+.div-flex{
+    display: flex;
+}
+
 .container-foto-index{
     padding: 32px 0px;
 }
@@ -34,11 +43,6 @@ body{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-}
-
-.flex-header {
-    display: flex;
-    align-items: center;
 }
 
 .header{
@@ -91,6 +95,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--section-heading-color);
+    padding: 24px 0;
+    display: inline-block;
     display: flex;
     gap: 40px;
 }
@@ -102,7 +108,8 @@ body{
     line-height: 1,5;
     letter-spacing: 0.02em;
     color:var(--becgroung-color-section);
-    padding: 24px 0
+    padding: 24px 0;
+    display: inline-block;
 }
 
 .link:hover, .link:focus{
@@ -263,14 +270,19 @@ body{
 .button-portfolio
     {background-color:var(--footer-color);
     color: var(--logo-main-color);
-    font-family:"Roboto", sans-serif;
+}
+
+.button-portfolio-one{
+    background-color: var(--link-hover-focus);
+    color: var(--bacground-color);
+}
+
+.button-portfolio-bloc{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-}
-
-.button-portfolio-bloc{
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
