@@ -64,6 +64,10 @@ body{
     display: flex;
     gap: 40px}
 
+.link {
+    text-decoration: none
+}
+
 .menu-header{
     display: flex;
     gap: 40px;
@@ -80,10 +84,6 @@ body{
 .adr {
     font-style: normal;
     margin-left: auto;
-}
-
-.link {
-    text-decoration: none
 }
 
 .address-logo{
@@ -119,20 +119,17 @@ body{
     align-items: center;
 }
 
-.section-index {
+.section-index-one {
     background-color:var(--becgroung-color-section);
-}
-
-.section-one {
     padding: 188px 0;
 }
 
-.section-two-index{
-    padding: 120px 0px;
+.section-index-two{
+    padding: 120px 0;
 }
 
-.section-tree-index{
-    padding-bottom: 120px;
+.section-four {
+    background-color: var(--footer-color);
 }
 
 .section-portfolio{
@@ -298,10 +295,6 @@ body{
 .fotos{
     background-color:var(--bacground-color);
     border-radius: 0px 0px 4px 4px;
-}
-
- .section-four{
-    background-color:var(--footer-color);
 }
 
 .footer {
