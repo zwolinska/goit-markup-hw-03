@@ -20,12 +20,6 @@ body{
     padding: 0;
 }
 
-.header-flex{
-display: flex;
-
-}
-
-
 .container{
     width: 1158px;
     margin: 0 auto;
@@ -40,6 +34,18 @@ display: flex;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+
+.flex-header {
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+    border: 0px,0px,1px,0px;
 }
 
 .logo-web {
@@ -105,6 +111,12 @@ display: flex;
    
 .contacts{
     list-style: none
+}
+
+.flex-section-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-index {
